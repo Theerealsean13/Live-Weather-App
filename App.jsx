@@ -6,7 +6,7 @@ function App() {
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState('');
 
-  const API_KEY = '088a160966f43525f3abd8aff0b59bd7';
+  const API_KEY = 'VITE_WEATHER_API_KEY';
 
   const fetchWeather = async () => {
     if (!city) return;
